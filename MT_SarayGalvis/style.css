@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background:url('../Playstation-Videojuegos-Consola-retro-Unsplash.jpg');
+    background-size:cover ;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: plum;
+    font-family:'Tapestry', cursive;
+}
+
+nav{
+    background-color: rgba(119, 149, 153, 0.363);
+    width: 100%; 
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+.lista a{
+    text-decoration: none;
+    color: rgb(175, 16, 69);
+    display: block;
+    padding: 15px 50px;
+}
+
+.menu .lista{
+    display: inline-block;
+}
+
+.lista-r{
+    float: right;
+}
+.lista a:hover{
+    background-color: indigo;
+}
+
+main{
+    text-align: center;
+}
+
+img{
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border:10px solid rgb(87, 16, 202); 
+}
+
+p{
+    font-size: 22px;
+    font-weight: 600;
+}
